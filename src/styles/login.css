@@ -1,0 +1,83 @@
+/* login.module.css */
+.loginContainer {
+    display: flex;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .logoSection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 2rem;
+  }
+  
+  .logo {
+    width: 200px;
+    height: 200px;
+    /* background-image: url('path_to_your_logo_image.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 2rem;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .formSection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    background: linear-gradient(to bottom right, #d3d3d3, #a9a9a9);
+  }
+  
+  .signIn {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+  
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .forgotPassword {
+    align-self: flex-end;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 1rem;
+  }
+  
+  .signInButton {
+    padding: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 4px;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signInButton:hover {
+    background-color: #fff;
+  }
+  

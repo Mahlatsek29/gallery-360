@@ -1,0 +1,32 @@
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 1rem;
+  }
+  
+  .card-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+  }
+  
+  .accept-button {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .decline-button {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
